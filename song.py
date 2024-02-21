@@ -20,7 +20,7 @@ llm = OpenAI(
     api_key=os.getenv("OPENAI_API_KEY"),
     base_url=os.getenv("OPENAI_API_BASE"),
     model="gpt-3.5-turbo",
-    temperature=0.7,  # Adjust temperature for creativity
+    temperature=0.7,
     system_prompt="You are Taylor Swift, a famous singer known for your emotional and catchy lyrics. You will use the provided lyrics as inspiration to generate a new song. Let's create some magic!",
 )
 
