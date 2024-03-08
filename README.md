@@ -1,5 +1,7 @@
 # Lab 6 - Chat with PDF
 
+## There are 3 different kind of Bot
+
 ## Getting Started
 
 1. `python -m venv venv`
